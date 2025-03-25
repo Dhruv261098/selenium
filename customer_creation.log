@@ -1,0 +1,742 @@
+2025-03-24 19:57:36,419 - INFO - Opening Odoo login page...
+2025-03-24 19:57:40,566 - INFO - Entering login credentials...
+2025-03-24 19:57:46,166 - INFO - Login successful! Navigating to Sales module.
+2025-03-24 19:57:56,502 - ERROR - ⚠️ Error: Message: 
+Stacktrace:
+#0 0x55e44dcd3ffa <unknown>
+#1 0x55e44d792970 <unknown>
+#2 0x55e44d7e4385 <unknown>
+#3 0x55e44d7e45b1 <unknown>
+#4 0x55e44d8333c4 <unknown>
+#5 0x55e44d80a2bd <unknown>
+#6 0x55e44d83070c <unknown>
+#7 0x55e44d80a063 <unknown>
+#8 0x55e44d7d6328 <unknown>
+#9 0x55e44d7d7491 <unknown>
+#10 0x55e44dc9b42b <unknown>
+#11 0x55e44dc9f2ec <unknown>
+#12 0x55e44dc82a22 <unknown>
+#13 0x55e44dc9fe64 <unknown>
+#14 0x55e44dc66bef <unknown>
+#15 0x55e44dcc2558 <unknown>
+#16 0x55e44dcc2736 <unknown>
+#17 0x55e44dcd2e76 <unknown>
+#18 0x7f38deae2609 start_thread
+
+2025-03-24 20:04:06,877 - INFO - Opening Odoo login page...
+2025-03-24 20:04:10,992 - INFO - Entering login credentials...
+2025-03-24 20:04:16,641 - INFO - Login successful! Navigating to Sales module.
+2025-03-24 20:04:16,641 - INFO - Waiting for Sales module icon to be clickable...
+2025-03-24 20:04:31,694 - ERROR - ❌ Failed to click Sales module: Message: 
+Stacktrace:
+#0 0x55fad05efffa <unknown>
+#1 0x55fad00ae970 <unknown>
+#2 0x55fad0100385 <unknown>
+#3 0x55fad01005b1 <unknown>
+#4 0x55fad014f3c4 <unknown>
+#5 0x55fad01262bd <unknown>
+#6 0x55fad014c70c <unknown>
+#7 0x55fad0126063 <unknown>
+#8 0x55fad00f2328 <unknown>
+#9 0x55fad00f3491 <unknown>
+#10 0x55fad05b742b <unknown>
+#11 0x55fad05bb2ec <unknown>
+#12 0x55fad059ea22 <unknown>
+#13 0x55fad05bbe64 <unknown>
+#14 0x55fad0582bef <unknown>
+#15 0x55fad05de558 <unknown>
+#16 0x55fad05de736 <unknown>
+#17 0x55fad05eee76 <unknown>
+#18 0x7efc4ffa9609 start_thread
+
+2025-03-24 20:04:31,848 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa0e1018200>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5f8ce9b54bf9b46614242dab75b36f68
+2025-03-24 20:04:31,848 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa0e1018590>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5f8ce9b54bf9b46614242dab75b36f68
+2025-03-24 20:04:31,849 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa0e10187d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5f8ce9b54bf9b46614242dab75b36f68
+2025-03-24 20:09:40,974 - INFO - Opening Odoo login page...
+2025-03-24 20:09:45,097 - INFO - Entering login credentials...
+2025-03-24 20:09:50,792 - INFO - ✅ Login successful! Navigating to Sales module.
+2025-03-24 20:09:50,792 - INFO - Waiting for Sales module icon to be clickable...
+2025-03-24 20:10:10,923 - ERROR - ❌ Failed to click Sales module: Message: 
+Stacktrace:
+#0 0x56347f689ffa <unknown>
+#1 0x56347f148970 <unknown>
+#2 0x56347f19a385 <unknown>
+#3 0x56347f19a5b1 <unknown>
+#4 0x56347f1e93c4 <unknown>
+#5 0x56347f1c02bd <unknown>
+#6 0x56347f1e670c <unknown>
+#7 0x56347f1c0063 <unknown>
+#8 0x56347f18c328 <unknown>
+#9 0x56347f18d491 <unknown>
+#10 0x56347f65142b <unknown>
+#11 0x56347f6552ec <unknown>
+#12 0x56347f638a22 <unknown>
+#13 0x56347f655e64 <unknown>
+#14 0x56347f61cbef <unknown>
+#15 0x56347f678558 <unknown>
+#16 0x56347f678736 <unknown>
+#17 0x56347f688e76 <unknown>
+#18 0x7f8c19a6f609 start_thread
+
+2025-03-24 20:10:11,076 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2cec028230>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d94221a77330ba7f0b6d64592327f5f2
+2025-03-24 20:10:11,077 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2cec028440>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d94221a77330ba7f0b6d64592327f5f2
+2025-03-24 20:10:11,077 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2cec028620>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d94221a77330ba7f0b6d64592327f5f2
+2025-03-25 00:47:41,299 - INFO - Opening Odoo login page...
+2025-03-25 00:47:43,811 - INFO - Waiting for email input field...
+2025-03-25 00:47:43,971 - INFO - Waiting for password input field...
+2025-03-25 00:47:44,155 - INFO - Waiting for login button...
+2025-03-25 00:47:45,289 - INFO - Clicking login button...
+2025-03-25 00:47:49,992 - INFO - No login error message detected.
+2025-03-25 00:47:50,120 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 00:47:50,120 - INFO - ✅ Login Successful!
+2025-03-25 00:47:50,120 - INFO - Waiting for Sales module icon to be clickable...
+2025-03-25 00:48:10,635 - ERROR - ❌ Failed to click Sales module: Message: 
+Stacktrace:
+#0 0x55bda88fbffa <unknown>
+#1 0x55bda83ba970 <unknown>
+#2 0x55bda840c385 <unknown>
+#3 0x55bda840c5b1 <unknown>
+#4 0x55bda845b3c4 <unknown>
+#5 0x55bda84322bd <unknown>
+#6 0x55bda845870c <unknown>
+#7 0x55bda8432063 <unknown>
+#8 0x55bda83fe328 <unknown>
+#9 0x55bda83ff491 <unknown>
+#10 0x55bda88c342b <unknown>
+#11 0x55bda88c72ec <unknown>
+#12 0x55bda88aaa22 <unknown>
+#13 0x55bda88c7e64 <unknown>
+#14 0x55bda888ebef <unknown>
+#15 0x55bda88ea558 <unknown>
+#16 0x55bda88ea736 <unknown>
+#17 0x55bda88fae76 <unknown>
+#18 0x7f678fade609 start_thread
+
+2025-03-25 00:48:10,826 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f092d77cfe0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/57577e12e947ee2b83c4a99f1b2939f9
+2025-03-25 00:48:10,826 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f092d77d370>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/57577e12e947ee2b83c4a99f1b2939f9
+2025-03-25 00:48:10,827 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f092d77d610>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/57577e12e947ee2b83c4a99f1b2939f9
+2025-03-25 00:53:34,776 - INFO - Opening Odoo login page...
+2025-03-25 00:53:37,280 - INFO - Waiting for email input field...
+2025-03-25 00:53:37,445 - INFO - Waiting for password input field...
+2025-03-25 00:53:37,617 - INFO - Waiting for login button...
+2025-03-25 00:53:38,743 - INFO - Clicking login button...
+2025-03-25 00:53:43,239 - INFO - No login error message detected.
+2025-03-25 00:53:43,358 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 00:53:43,359 - INFO - ✅ Login Successful!
+2025-03-25 00:53:43,359 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 00:53:46,661 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 00:53:46,711 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 00:59:55,091 - INFO - Opening Odoo login page...
+2025-03-25 00:59:57,603 - INFO - Waiting for email input field...
+2025-03-25 00:59:57,752 - INFO - Waiting for password input field...
+2025-03-25 00:59:57,905 - INFO - Waiting for login button...
+2025-03-25 00:59:59,024 - INFO - Clicking login button...
+2025-03-25 01:00:03,506 - INFO - No login error message detected.
+2025-03-25 01:00:03,623 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:00:03,624 - INFO - ✅ Login Successful!
+2025-03-25 01:00:03,624 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:00:06,923 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:00:06,975 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:00:06,975 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:00:17,441 - ERROR - ❌ Failed to select 'Individual': Message: 
+Stacktrace:
+#0 0x55cb8d181ffa <unknown>
+#1 0x55cb8cc40970 <unknown>
+#2 0x55cb8cc92385 <unknown>
+#3 0x55cb8cc925b1 <unknown>
+#4 0x55cb8cce13c4 <unknown>
+#5 0x55cb8ccb82bd <unknown>
+#6 0x55cb8ccde70c <unknown>
+#7 0x55cb8ccb8063 <unknown>
+#8 0x55cb8cc84328 <unknown>
+#9 0x55cb8cc85491 <unknown>
+#10 0x55cb8d14942b <unknown>
+#11 0x55cb8d14d2ec <unknown>
+#12 0x55cb8d130a22 <unknown>
+#13 0x55cb8d14de64 <unknown>
+#14 0x55cb8d114bef <unknown>
+#15 0x55cb8d170558 <unknown>
+#16 0x55cb8d170736 <unknown>
+#17 0x55cb8d180e76 <unknown>
+#18 0x7fa4a9a4a609 start_thread
+
+2025-03-25 01:00:17,577 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd50e87c890>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/64a65cd0ca0308a39bea012fa5252fa6
+2025-03-25 01:00:17,578 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd50e87cc80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/64a65cd0ca0308a39bea012fa5252fa6
+2025-03-25 01:00:17,578 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fd50e87ce90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/64a65cd0ca0308a39bea012fa5252fa6
+2025-03-25 01:04:53,431 - INFO - Opening Odoo login page...
+2025-03-25 01:04:55,917 - INFO - Waiting for email input field...
+2025-03-25 01:04:56,048 - INFO - Waiting for password input field...
+2025-03-25 01:04:56,181 - INFO - Waiting for login button...
+2025-03-25 01:04:57,296 - INFO - Clicking login button...
+2025-03-25 01:05:01,692 - INFO - No login error message detected.
+2025-03-25 01:05:01,793 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:05:01,793 - INFO - ✅ Login Successful!
+2025-03-25 01:05:01,793 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:05:05,094 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:05:05,149 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:05:05,149 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:05:15,616 - ERROR - ❌ Failed to select 'Individual': Message: 
+Stacktrace:
+#0 0x560cb5afbffa <unknown>
+#1 0x560cb55ba970 <unknown>
+#2 0x560cb560c385 <unknown>
+#3 0x560cb560c5b1 <unknown>
+#4 0x560cb565b3c4 <unknown>
+#5 0x560cb56322bd <unknown>
+#6 0x560cb565870c <unknown>
+#7 0x560cb5632063 <unknown>
+#8 0x560cb55fe328 <unknown>
+#9 0x560cb55ff491 <unknown>
+#10 0x560cb5ac342b <unknown>
+#11 0x560cb5ac72ec <unknown>
+#12 0x560cb5aaaa22 <unknown>
+#13 0x560cb5ac7e64 <unknown>
+#14 0x560cb5a8ebef <unknown>
+#15 0x560cb5aea558 <unknown>
+#16 0x560cb5aea736 <unknown>
+#17 0x560cb5afae76 <unknown>
+#18 0x7f4e35d64609 start_thread
+
+2025-03-25 01:05:15,743 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa9d3148a40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/4d33246b9693e6b114b269c1f02474cb
+2025-03-25 01:05:15,743 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa9d3148d70>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/4d33246b9693e6b114b269c1f02474cb
+2025-03-25 01:05:15,744 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa9d3148f20>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/4d33246b9693e6b114b269c1f02474cb
+2025-03-25 01:07:29,875 - INFO - Opening Odoo login page...
+2025-03-25 01:07:32,341 - INFO - Waiting for email input field...
+2025-03-25 01:07:32,476 - INFO - Waiting for password input field...
+2025-03-25 01:07:32,623 - INFO - Waiting for login button...
+2025-03-25 01:07:33,739 - INFO - Clicking login button...
+2025-03-25 01:07:38,148 - INFO - No login error message detected.
+2025-03-25 01:07:38,249 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:07:38,249 - INFO - ✅ Login Successful!
+2025-03-25 01:07:38,249 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:07:41,528 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:07:41,572 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:07:41,572 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:07:41,719 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:17:56,992 - INFO - Opening Odoo login page...
+2025-03-25 01:17:59,486 - INFO - Waiting for email input field...
+2025-03-25 01:17:59,652 - INFO - Waiting for password input field...
+2025-03-25 01:17:59,806 - INFO - Waiting for login button...
+2025-03-25 01:18:00,932 - INFO - Clicking login button...
+2025-03-25 01:18:05,467 - INFO - No login error message detected.
+2025-03-25 01:18:05,581 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:18:05,581 - INFO - ✅ Login Successful!
+2025-03-25 01:18:05,581 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:18:08,923 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:18:08,966 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:18:08,966 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:18:09,113 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:18:09,113 - ERROR - ❌ Failed to fill Name field: name 'RANDOM_NAME' is not defined
+2025-03-25 01:18:09,265 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99ac089790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7aab12ba6f26ffbc0d47453c0d32f753
+2025-03-25 01:18:09,266 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99ac088f80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7aab12ba6f26ffbc0d47453c0d32f753
+2025-03-25 01:18:09,266 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f99ac089d30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7aab12ba6f26ffbc0d47453c0d32f753
+2025-03-25 01:19:51,849 - INFO - Opening Odoo login page...
+2025-03-25 01:19:54,446 - INFO - Waiting for email input field...
+2025-03-25 01:19:54,595 - INFO - Waiting for password input field...
+2025-03-25 01:19:54,744 - INFO - Waiting for login button...
+2025-03-25 01:19:55,859 - INFO - Clicking login button...
+2025-03-25 01:20:00,296 - INFO - No login error message detected.
+2025-03-25 01:20:00,409 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:20:00,409 - INFO - ✅ Login Successful!
+2025-03-25 01:20:00,409 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:20:03,731 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:20:03,780 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:20:03,781 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:20:03,943 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:20:03,943 - INFO - Filling Name field with: Emma Johnson
+2025-03-25 01:20:04,028 - ERROR - ❌ Failed to fill Name field: Message: invalid element state
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x560e4c603ffa <unknown>
+#1 0x560e4c0c27c3 <unknown>
+#2 0x560e4c10a942 <unknown>
+#3 0x560e4c13a292 <unknown>
+#4 0x560e4c107e4a <unknown>
+#5 0x560e4c13a45e <unknown>
+#6 0x560e4c16070c <unknown>
+#7 0x560e4c13a063 <unknown>
+#8 0x560e4c106328 <unknown>
+#9 0x560e4c107491 <unknown>
+#10 0x560e4c5cb42b <unknown>
+#11 0x560e4c5cf2ec <unknown>
+#12 0x560e4c5b2a22 <unknown>
+#13 0x560e4c5cfe64 <unknown>
+#14 0x560e4c596bef <unknown>
+#15 0x560e4c5f2558 <unknown>
+#16 0x560e4c5f2736 <unknown>
+#17 0x560e4c602e76 <unknown>
+#18 0x7f5dd14fb609 start_thread
+
+2025-03-25 01:20:04,165 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b62e11700>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/351669bab14dfbd46e3c1909edd93b4b
+2025-03-25 01:20:04,166 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b62e11b80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/351669bab14dfbd46e3c1909edd93b4b
+2025-03-25 01:20:04,166 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b62e11df0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/351669bab14dfbd46e3c1909edd93b4b
+2025-03-25 01:23:05,486 - INFO - Opening Odoo login page...
+2025-03-25 01:23:07,999 - INFO - Waiting for email input field...
+2025-03-25 01:23:08,151 - INFO - Waiting for password input field...
+2025-03-25 01:23:08,340 - INFO - Waiting for login button...
+2025-03-25 01:23:09,471 - INFO - Clicking login button...
+2025-03-25 01:23:14,004 - INFO - No login error message detected.
+2025-03-25 01:23:14,114 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:23:14,114 - INFO - ✅ Login Successful!
+2025-03-25 01:23:14,114 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:23:17,437 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:23:17,489 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:23:17,489 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:23:17,644 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:23:17,644 - INFO - Filling Name field with: Sophia Garcia
+2025-03-25 01:23:18,734 - ERROR - ⚠️ Error: Message: invalid element state
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x56127aa72ffa <unknown>
+#1 0x56127a5317c3 <unknown>
+#2 0x56127a579942 <unknown>
+#3 0x56127a5a9292 <unknown>
+#4 0x56127a576e4a <unknown>
+#5 0x56127a5a945e <unknown>
+#6 0x56127a5cf70c <unknown>
+#7 0x56127a5a9063 <unknown>
+#8 0x56127a575328 <unknown>
+#9 0x56127a576491 <unknown>
+#10 0x56127aa3a42b <unknown>
+#11 0x56127aa3e2ec <unknown>
+#12 0x56127aa21a22 <unknown>
+#13 0x56127aa3ee64 <unknown>
+#14 0x56127aa05bef <unknown>
+#15 0x56127aa61558 <unknown>
+#16 0x56127aa61736 <unknown>
+#17 0x56127aa71e76 <unknown>
+#18 0x7f0f9ca12609 start_thread
+
+2025-03-25 01:25:56,730 - INFO - Opening Odoo login page...
+2025-03-25 01:25:59,245 - INFO - Waiting for email input field...
+2025-03-25 01:25:59,394 - INFO - Waiting for password input field...
+2025-03-25 01:25:59,545 - INFO - Waiting for login button...
+2025-03-25 01:26:00,663 - INFO - Clicking login button...
+2025-03-25 01:26:05,171 - INFO - No login error message detected.
+2025-03-25 01:26:05,276 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:26:05,276 - INFO - ✅ Login Successful!
+2025-03-25 01:26:05,276 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:26:08,587 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:26:08,630 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:26:08,631 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:26:08,790 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:26:08,790 - INFO - Filling Name field with: Liam Jones
+2025-03-25 01:26:09,861 - ERROR - ⚠️ Error: Message: invalid element state
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5604b0305ffa <unknown>
+#1 0x5604afdc47c3 <unknown>
+#2 0x5604afe0c942 <unknown>
+#3 0x5604afe3c292 <unknown>
+#4 0x5604afe09e4a <unknown>
+#5 0x5604afe3c45e <unknown>
+#6 0x5604afe6270c <unknown>
+#7 0x5604afe3c063 <unknown>
+#8 0x5604afe08328 <unknown>
+#9 0x5604afe09491 <unknown>
+#10 0x5604b02cd42b <unknown>
+#11 0x5604b02d12ec <unknown>
+#12 0x5604b02b4a22 <unknown>
+#13 0x5604b02d1e64 <unknown>
+#14 0x5604b0298bef <unknown>
+#15 0x5604b02f4558 <unknown>
+#16 0x5604b02f4736 <unknown>
+#17 0x5604b0304e76 <unknown>
+#18 0x7fd006840609 start_thread
+
+2025-03-25 01:30:18,036 - INFO - Opening Odoo login page...
+2025-03-25 01:30:20,543 - INFO - Waiting for email input field...
+2025-03-25 01:30:20,685 - INFO - Waiting for password input field...
+2025-03-25 01:30:20,850 - INFO - Waiting for login button...
+2025-03-25 01:30:21,967 - INFO - Clicking login button...
+2025-03-25 01:30:26,483 - INFO - No login error message detected.
+2025-03-25 01:30:26,600 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:30:26,600 - INFO - ✅ Login Successful!
+2025-03-25 01:30:26,600 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:30:29,930 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:30:29,973 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:30:29,973 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:30:30,141 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:30:30,141 - INFO - Filling Name field with: Isabella Martinez
+2025-03-25 01:30:31,236 - ERROR - ⚠️ Error: Message: invalid element state
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x55ebcadb5ffa <unknown>
+#1 0x55ebca8747c3 <unknown>
+#2 0x55ebca8bc942 <unknown>
+#3 0x55ebca8ec292 <unknown>
+#4 0x55ebca8b9e4a <unknown>
+#5 0x55ebca8ec45e <unknown>
+#6 0x55ebca91270c <unknown>
+#7 0x55ebca8ec063 <unknown>
+#8 0x55ebca8b8328 <unknown>
+#9 0x55ebca8b9491 <unknown>
+#10 0x55ebcad7d42b <unknown>
+#11 0x55ebcad812ec <unknown>
+#12 0x55ebcad64a22 <unknown>
+#13 0x55ebcad81e64 <unknown>
+#14 0x55ebcad48bef <unknown>
+#15 0x55ebcada4558 <unknown>
+#16 0x55ebcada4736 <unknown>
+#17 0x55ebcadb4e76 <unknown>
+#18 0x7f68bbb36609 start_thread
+
+2025-03-25 01:32:40,566 - INFO - Opening Odoo login page...
+2025-03-25 01:32:43,109 - INFO - Waiting for email input field...
+2025-03-25 01:32:43,259 - INFO - Waiting for password input field...
+2025-03-25 01:32:43,416 - INFO - Waiting for login button...
+2025-03-25 01:32:44,547 - INFO - Clicking login button...
+2025-03-25 01:32:49,064 - INFO - No login error message detected.
+2025-03-25 01:32:49,178 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:32:49,178 - INFO - ✅ Login Successful!
+2025-03-25 01:32:49,178 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:32:52,512 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:32:52,563 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:32:52,563 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:32:52,727 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:32:52,727 - INFO - Filling Name field with: Oliver Williams
+2025-03-25 01:32:54,809 - ERROR - ⚠️ Error: name 'Keys' is not defined
+2025-03-25 01:34:10,638 - INFO - Opening Odoo login page...
+2025-03-25 01:34:13,161 - INFO - Waiting for email input field...
+2025-03-25 01:34:13,315 - INFO - Waiting for password input field...
+2025-03-25 01:34:13,462 - INFO - Waiting for login button...
+2025-03-25 01:34:14,577 - INFO - Clicking login button...
+2025-03-25 01:34:19,130 - INFO - No login error message detected.
+2025-03-25 01:34:19,245 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:34:19,246 - INFO - ✅ Login Successful!
+2025-03-25 01:34:19,246 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:34:22,577 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:34:22,629 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:34:22,629 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:34:22,748 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:34:22,748 - INFO - Filling Name field with: James Smith
+2025-03-25 01:34:24,963 - ERROR - ⚠️ Error: Message: element not interactable
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x55db0e3caffa <unknown>
+#1 0x55db0de897c3 <unknown>
+#2 0x55db0ded55bc <unknown>
+#3 0x55db0ded3a40 <unknown>
+#4 0x55db0df01292 <unknown>
+#5 0x55db0decee4a <unknown>
+#6 0x55db0df0145e <unknown>
+#7 0x55db0df2770c <unknown>
+#8 0x55db0df01063 <unknown>
+#9 0x55db0decd328 <unknown>
+#10 0x55db0dece491 <unknown>
+#11 0x55db0e39242b <unknown>
+#12 0x55db0e3962ec <unknown>
+#13 0x55db0e379a22 <unknown>
+#14 0x55db0e396e64 <unknown>
+#15 0x55db0e35dbef <unknown>
+#16 0x55db0e3b9558 <unknown>
+#17 0x55db0e3b9736 <unknown>
+#18 0x55db0e3c9e76 <unknown>
+#19 0x7fbfbce44609 start_thread
+
+2025-03-25 01:36:13,092 - INFO - Opening Odoo login page...
+2025-03-25 01:36:15,606 - INFO - Waiting for email input field...
+2025-03-25 01:36:15,761 - INFO - Waiting for password input field...
+2025-03-25 01:36:15,922 - INFO - Waiting for login button...
+2025-03-25 01:36:17,039 - INFO - Clicking login button...
+2025-03-25 01:36:21,510 - INFO - No login error message detected.
+2025-03-25 01:36:21,617 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 01:36:21,618 - INFO - ✅ Login Successful!
+2025-03-25 01:36:21,618 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:36:24,934 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 01:36:24,990 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 01:36:24,991 - INFO - Selecting 'Individual' customer type...
+2025-03-25 01:36:25,157 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 01:36:25,157 - INFO - Filling Name field with: Liam Jones
+2025-03-25 01:36:28,484 - ERROR - ⚠️ Error: Message: element not interactable
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x55a0ea6feffa <unknown>
+#1 0x55a0ea1bd7c3 <unknown>
+#2 0x55a0ea2095bc <unknown>
+#3 0x55a0ea207a40 <unknown>
+#4 0x55a0ea235292 <unknown>
+#5 0x55a0ea202e4a <unknown>
+#6 0x55a0ea23545e <unknown>
+#7 0x55a0ea25b70c <unknown>
+#8 0x55a0ea235063 <unknown>
+#9 0x55a0ea201328 <unknown>
+#10 0x55a0ea202491 <unknown>
+#11 0x55a0ea6c642b <unknown>
+#12 0x55a0ea6ca2ec <unknown>
+#13 0x55a0ea6ada22 <unknown>
+#14 0x55a0ea6cae64 <unknown>
+#15 0x55a0ea691bef <unknown>
+#16 0x55a0ea6ed558 <unknown>
+#17 0x55a0ea6ed736 <unknown>
+#18 0x55a0ea6fde76 <unknown>
+#19 0x7fe56338a609 start_thread
+
+2025-03-25 18:57:46,990 - INFO - Opening Odoo login page...
+2025-03-25 18:57:49,453 - INFO - Waiting for email input field...
+2025-03-25 18:57:49,549 - INFO - Waiting for password input field...
+2025-03-25 18:57:49,644 - INFO - Waiting for login button...
+2025-03-25 18:57:50,731 - INFO - Clicking login button...
+2025-03-25 18:57:55,133 - INFO - No login error message detected.
+2025-03-25 18:57:55,234 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 18:57:55,235 - INFO - ✅ Login Successful!
+2025-03-25 18:57:55,235 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 18:57:58,566 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 18:57:58,599 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 18:57:58,599 - INFO - Selecting 'Individual' customer type...
+2025-03-25 18:57:58,738 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 18:57:58,738 - ERROR - ⚠️ Error: name 'wait' is not defined
+2025-03-25 19:00:35,196 - INFO - Opening Odoo login page...
+2025-03-25 19:00:37,592 - INFO - Waiting for email input field...
+2025-03-25 19:00:37,681 - INFO - Waiting for password input field...
+2025-03-25 19:00:37,773 - INFO - Waiting for login button...
+2025-03-25 19:00:38,855 - INFO - Clicking login button...
+2025-03-25 19:00:42,947 - INFO - No login error message detected.
+2025-03-25 19:00:43,041 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:00:43,041 - INFO - ✅ Login Successful!
+2025-03-25 19:00:43,041 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:00:46,246 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:00:46,274 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:00:46,274 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:00:46,374 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:00:46,387 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:00:47,445 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:00:49,623 - INFO - ✅ Name 'Emma Johnson' entered into the name field
+2025-03-25 19:00:49,679 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:00:49,679 - INFO - Selecting 'Canada' from the Country dropdown...
+2025-03-25 19:01:01,097 - ERROR - ❌ Failed to select 'Canada': Message: 
+Stacktrace:
+#0 0x561d24f18ffa <unknown>
+#1 0x561d249d7970 <unknown>
+#2 0x561d24a29385 <unknown>
+#3 0x561d24a295b1 <unknown>
+#4 0x561d24a783c4 <unknown>
+#5 0x561d24a4f2bd <unknown>
+#6 0x561d24a7570c <unknown>
+#7 0x561d24a4f063 <unknown>
+#8 0x561d24a1b328 <unknown>
+#9 0x561d24a1c491 <unknown>
+#10 0x561d24ee042b <unknown>
+#11 0x561d24ee42ec <unknown>
+#12 0x561d24ec7a22 <unknown>
+#13 0x561d24ee4e64 <unknown>
+#14 0x561d24eabbef <unknown>
+#15 0x561d24f07558 <unknown>
+#16 0x561d24f07736 <unknown>
+#17 0x561d24f17e76 <unknown>
+#18 0x7f69c22cd609 start_thread
+
+2025-03-25 19:01:01,218 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f58985360c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a4d7d3cb2fa46a624478f4d076c4b355
+2025-03-25 19:01:01,218 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f58985363f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a4d7d3cb2fa46a624478f4d076c4b355
+2025-03-25 19:01:01,218 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f58985365d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a4d7d3cb2fa46a624478f4d076c4b355
+2025-03-25 19:09:00,906 - INFO - Opening Odoo login page...
+2025-03-25 19:09:03,290 - INFO - Waiting for email input field...
+2025-03-25 19:09:03,380 - INFO - Waiting for password input field...
+2025-03-25 19:09:03,473 - INFO - Waiting for login button...
+2025-03-25 19:09:04,553 - INFO - Clicking login button...
+2025-03-25 19:09:08,699 - INFO - No login error message detected.
+2025-03-25 19:09:08,788 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:09:08,788 - INFO - ✅ Login Successful!
+2025-03-25 19:09:08,789 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:09:12,004 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:09:12,055 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:09:12,055 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:09:12,188 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:09:12,201 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:09:13,256 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:09:15,449 - INFO - ✅ Name 'Benjamin Miller' entered into the name field
+2025-03-25 19:09:15,521 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:09:15,521 - INFO - Selecting 'Canada' from the Country dropdown...
+2025-03-25 19:09:26,988 - ERROR - ❌ Failed to select 'Canada': Message: 
+Stacktrace:
+#0 0x561c2c82dffa <unknown>
+#1 0x561c2c2ec970 <unknown>
+#2 0x561c2c33e385 <unknown>
+#3 0x561c2c33e5b1 <unknown>
+#4 0x561c2c38d3c4 <unknown>
+#5 0x561c2c3642bd <unknown>
+#6 0x561c2c38a70c <unknown>
+#7 0x561c2c364063 <unknown>
+#8 0x561c2c330328 <unknown>
+#9 0x561c2c331491 <unknown>
+#10 0x561c2c7f542b <unknown>
+#11 0x561c2c7f92ec <unknown>
+#12 0x561c2c7dca22 <unknown>
+#13 0x561c2c7f9e64 <unknown>
+#14 0x561c2c7c0bef <unknown>
+#15 0x561c2c81c558 <unknown>
+#16 0x561c2c81c736 <unknown>
+#17 0x561c2c82ce76 <unknown>
+#18 0x7f3e35d7d609 start_thread
+
+2025-03-25 19:09:27,100 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9c36a96150>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/180828cab9ee473f846b517ff1cd85d5
+2025-03-25 19:09:27,100 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9c36a963c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/180828cab9ee473f846b517ff1cd85d5
+2025-03-25 19:09:27,101 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9c36a965a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/180828cab9ee473f846b517ff1cd85d5
+2025-03-25 19:22:02,490 - INFO - Opening Odoo login page...
+2025-03-25 19:22:04,889 - INFO - Waiting for email input field...
+2025-03-25 19:22:04,986 - INFO - Waiting for password input field...
+2025-03-25 19:22:05,076 - INFO - Waiting for login button...
+2025-03-25 19:22:06,155 - INFO - Clicking login button...
+2025-03-25 19:22:10,295 - INFO - No login error message detected.
+2025-03-25 19:22:10,375 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:22:10,375 - INFO - ✅ Login Successful!
+2025-03-25 19:22:10,375 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:22:13,578 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:22:13,608 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:22:13,608 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:22:13,717 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:22:13,731 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:22:14,775 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:22:16,980 - INFO - ✅ Name 'Charlotte Brown' entered into the name field
+2025-03-25 19:22:17,041 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:22:17,042 - INFO - Selecting 'India' from the Country dropdown...
+2025-03-25 19:22:23,338 - ERROR - ❌ Failed to select country 'India': Message: 
+Stacktrace:
+#0 0x55dbe2eefffa <unknown>
+#1 0x55dbe29ae970 <unknown>
+#2 0x55dbe2a00385 <unknown>
+#3 0x55dbe2a005b1 <unknown>
+#4 0x55dbe2a4f3c4 <unknown>
+#5 0x55dbe2a262bd <unknown>
+#6 0x55dbe2a4c70c <unknown>
+#7 0x55dbe2a26063 <unknown>
+#8 0x55dbe29f2328 <unknown>
+#9 0x55dbe29f3491 <unknown>
+#10 0x55dbe2eb742b <unknown>
+#11 0x55dbe2ebb2ec <unknown>
+#12 0x55dbe2e9ea22 <unknown>
+#13 0x55dbe2ebbe64 <unknown>
+#14 0x55dbe2e82bef <unknown>
+#15 0x55dbe2ede558 <unknown>
+#16 0x55dbe2ede736 <unknown>
+#17 0x55dbe2eeee76 <unknown>
+#18 0x7f7dcd3c0609 start_thread
+
+2025-03-25 19:22:23,454 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3dbc59e8a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7f2ae7f6e0a857986298b35ed53c0701
+2025-03-25 19:22:23,454 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3dbc59ec90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7f2ae7f6e0a857986298b35ed53c0701
+2025-03-25 19:22:23,455 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3dbc59eea0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/7f2ae7f6e0a857986298b35ed53c0701
+2025-03-25 19:26:11,930 - INFO - Opening Odoo login page...
+2025-03-25 19:26:14,321 - INFO - Waiting for email input field...
+2025-03-25 19:26:14,400 - INFO - Waiting for password input field...
+2025-03-25 19:26:14,482 - INFO - Waiting for login button...
+2025-03-25 19:26:15,561 - INFO - Clicking login button...
+2025-03-25 19:26:19,640 - INFO - No login error message detected.
+2025-03-25 19:26:19,729 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:26:19,729 - INFO - ✅ Login Successful!
+2025-03-25 19:26:19,729 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:26:22,931 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:26:22,963 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:26:22,963 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:26:23,058 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:26:23,070 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:26:24,112 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:26:26,289 - INFO - ✅ Name 'Sophia Garcia' entered into the name field
+2025-03-25 19:26:26,363 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:26:26,363 - INFO - Selecting 'Australia' from the Country dropdown...
+2025-03-25 19:26:32,639 - ERROR - ❌ Failed to select country 'Australia': Message: 
+Stacktrace:
+#0 0x5644b3bffffa <unknown>
+#1 0x5644b36be970 <unknown>
+#2 0x5644b3710385 <unknown>
+#3 0x5644b37105b1 <unknown>
+#4 0x5644b375f3c4 <unknown>
+#5 0x5644b37362bd <unknown>
+#6 0x5644b375c70c <unknown>
+#7 0x5644b3736063 <unknown>
+#8 0x5644b3702328 <unknown>
+#9 0x5644b3703491 <unknown>
+#10 0x5644b3bc742b <unknown>
+#11 0x5644b3bcb2ec <unknown>
+#12 0x5644b3baea22 <unknown>
+#13 0x5644b3bcbe64 <unknown>
+#14 0x5644b3b92bef <unknown>
+#15 0x5644b3bee558 <unknown>
+#16 0x5644b3bee736 <unknown>
+#17 0x5644b3bfee76 <unknown>
+#18 0x7f1332395609 start_thread
+
+2025-03-25 19:26:32,754 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3f47a6630>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/14949c2a77d77e0de6093d96be18291f
+2025-03-25 19:26:32,755 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3f47a6810>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/14949c2a77d77e0de6093d96be18291f
+2025-03-25 19:26:32,755 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc3f47a6d20>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/14949c2a77d77e0de6093d96be18291f
+2025-03-25 19:33:20,838 - INFO - Opening Odoo login page...
+2025-03-25 19:33:23,315 - INFO - Waiting for email input field...
+2025-03-25 19:33:23,428 - INFO - Waiting for password input field...
+2025-03-25 19:33:23,535 - INFO - Waiting for login button...
+2025-03-25 19:33:24,631 - INFO - Clicking login button...
+2025-03-25 19:33:28,858 - INFO - No login error message detected.
+2025-03-25 19:33:28,957 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:33:28,957 - INFO - ✅ Login Successful!
+2025-03-25 19:33:28,957 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:33:32,202 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:33:32,252 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:33:32,252 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:33:32,376 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:33:32,391 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:33:33,451 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:33:35,660 - INFO - ✅ Name 'Charlotte Brown' entered into the name field
+2025-03-25 19:33:35,722 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:33:35,723 - INFO - Typing 'India' into the Country field...
+2025-03-25 19:33:38,020 - INFO - 📸 Screenshot taken after typing country: India
+2025-03-25 19:33:39,188 - INFO - ✅ Country 'India' selection finalized by clicking outside.
+2025-03-25 19:36:02,767 - INFO - Opening Odoo login page...
+2025-03-25 19:36:05,216 - INFO - Waiting for email input field...
+2025-03-25 19:36:05,317 - INFO - Waiting for password input field...
+2025-03-25 19:36:05,414 - INFO - Waiting for login button...
+2025-03-25 19:36:06,510 - INFO - Clicking login button...
+2025-03-25 19:36:10,777 - INFO - No login error message detected.
+2025-03-25 19:36:10,867 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:36:10,867 - INFO - ✅ Login Successful!
+2025-03-25 19:36:10,867 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:36:14,121 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:36:14,182 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:36:14,182 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:36:14,304 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:36:14,320 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:36:15,380 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:36:17,563 - INFO - ✅ Name 'Liam Jones' entered into the name field
+2025-03-25 19:36:17,642 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:36:17,642 - INFO - Typing 'Canada' into the Country field...
+2025-03-25 19:36:19,913 - INFO - 📸 Screenshot taken after typing country: Canada
+2025-03-25 19:36:21,070 - INFO - ✅ Country 'Canada' selection finalized by clicking outside.
+2025-03-25 19:43:03,822 - INFO - Opening Odoo login page...
+2025-03-25 19:43:06,285 - INFO - Waiting for email input field...
+2025-03-25 19:43:06,389 - INFO - Waiting for password input field...
+2025-03-25 19:43:06,503 - INFO - Waiting for login button...
+2025-03-25 19:43:07,594 - INFO - Clicking login button...
+2025-03-25 19:43:11,900 - INFO - No login error message detected.
+2025-03-25 19:43:12,005 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:43:12,005 - INFO - ✅ Login Successful!
+2025-03-25 19:43:12,006 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:43:15,278 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:43:15,330 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:43:15,330 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:43:15,456 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:43:15,474 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:43:16,529 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:43:18,749 - INFO - ✅ Name 'Emma Johnson' entered into the name field
+2025-03-25 19:43:18,832 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:43:18,832 - INFO - Typing and selecting 'Canada' in the Country field...
+2025-03-25 19:43:21,148 - INFO - 📸 Screenshot taken after typing country: Canada
+2025-03-25 19:43:22,727 - INFO - ✅ Country 'Canada' selected with Enter key.
+2025-03-25 19:48:11,773 - INFO - Opening Odoo login page...
+2025-03-25 19:48:14,194 - INFO - Waiting for email input field...
+2025-03-25 19:48:14,316 - INFO - Waiting for password input field...
+2025-03-25 19:48:14,429 - INFO - Waiting for login button...
+2025-03-25 19:48:15,532 - INFO - Clicking login button...
+2025-03-25 19:48:19,750 - INFO - No login error message detected.
+2025-03-25 19:48:19,856 - INFO - Current URL after login: http://34.125.145.208:8077/odoo
+2025-03-25 19:48:19,856 - INFO - ✅ Login Successful!
+2025-03-25 19:48:19,856 - INFO - Navigating directly to: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:48:23,090 - INFO - Current URL after navigation: http://34.125.145.208:8077/odoo/sale-customers/new
+2025-03-25 19:48:23,154 - INFO - ✅ Successfully reached the New Customer form.
+2025-03-25 19:48:23,154 - INFO - Selecting 'Individual' customer type...
+2025-03-25 19:48:23,277 - INFO - ✅ Selected 'Individual' successfully!
+2025-03-25 19:48:23,289 - INFO - ✅ Found name field with placeholder 'e.g. Brandon Freeman'
+2025-03-25 19:48:24,356 - INFO - 📸 Screenshot after clicking name placeholder taken
+2025-03-25 19:48:26,544 - INFO - ✅ Name 'Liam Jones' entered into the name field
+2025-03-25 19:48:26,602 - INFO - 📸 Screenshot after filling name taken
+2025-03-25 19:48:26,602 - INFO - Typing and selecting 'Canada' in the Country field...
+2025-03-25 19:48:28,883 - INFO - 📸 Screenshot taken after typing country: Canada
+2025-03-25 19:48:30,486 - INFO - ✅ Country 'Canada' selected with Enter key.
+2025-03-25 19:48:30,486 - INFO - Typing city name 'Patan'...
+2025-03-25 19:48:32,683 - INFO - 📸 Screenshot taken after entering city 'Patan'
