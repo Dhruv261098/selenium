@@ -227,9 +227,17 @@ try:
         driver.quit()
         exit()
 
-    # Step 6: Enter City
+    # Step 6: Enter random city
     try:
-        logging.info("Typing city name 'Patan'...")
+        CITY_LIST = [
+            "New York", "Los Angeles", "Toronto", "Vancouver", "Chicago",
+            "London", "Paris", "Berlin", "Rome", "Madrid",
+            "Sydney", "Melbourne", "Dubai", "Mumbai", "Delhi",
+            "Tokyo", "Seoul", "Singapore", "Bangkok", "Kuala Lumpur"
+        ]
+        RANDOM_CITY = random.choice(CITY_LIST)
+    
+        logging.info(f"Typing city name '{RANDOM_CITY}'...")
     
         city_input = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.XPATH, "//input[@placeholder='City']"))
@@ -237,23 +245,84 @@ try:
         driver.execute_script("arguments[0].scrollIntoView();", city_input)
         time.sleep(1)
         city_input.clear()
-        city_input.send_keys("Patan")
+        city_input.send_keys(RANDOM_CITY)
         time.sleep(1)
     
         # Screenshot after typing city
-        driver.save_screenshot("step_city_entered_patan.png")
-        logging.info("📸 Screenshot taken after entering city 'Patan'")
+        driver.save_screenshot(f"step_city_entered_{RANDOM_CITY.replace(' ', '_')}.png")
+        logging.info(f"📸 Screenshot taken after entering city '{RANDOM_CITY}'")
     
     except Exception as e:
         logging.error(f"❌ Failed to enter city: {str(e)}")
         driver.save_screenshot("error_city_input.png")
         driver.quit()
         exit()
+
+
+
+    # Step 7: Generate and enter email address
+    try:
+        # Generate email based on name
+        email_local_part = RANDOM_NAME.lower().replace(" ", ".")
+        email_address = f"{email_local_part}@gmail.com"
+        logging.info(f"Entering email: {email_address}")
     
+        # Locate email input field visually and click before typing
+        email_field_div = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "//div[contains(@class, 'o_field_widget') and contains(@name, 'email')]"))
+        )
+        driver.execute_script("arguments[0].scrollIntoView();", email_field_div)
+        time.sleep(1)
+        email_field_div.click()  # Necessary to activate the input
+    
+        # Now locate the input inside and type
+        email_input = WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((By.XPATH, "//div[contains(@name, 'email')]//input"))
+        )
+        email_input.clear()
+        email_input.send_keys(email_address)
+        time.sleep(1)
+    
+        # Screenshot after entering email
+        driver.save_screenshot(f"step_email_entered_{email_local_part}.png")
+        logging.info(f"📸 Screenshot taken after entering email '{email_address}'")
+    
+    except Exception as e:
+        logging.error(f"❌ Failed to enter email: {str(e)}")
+        driver.save_screenshot("error_email_input.png")
+        driver.quit()
+        exit()
+
+
+    # Step 8: Click the actual Save button from form status indicator
+    try:
+        logging.info("Clicking the cloud upload save button...")
+    
+        save_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((
+                By.XPATH,
+                "//button[contains(@class, 'o_form_button_save') and @aria-label='Save manually']"
+            ))
+        )
+        driver.execute_script("arguments[0].scrollIntoView();", save_button)
+        time.sleep(1)
+        save_button.click()
+    
+        # Give time for saving
+        time.sleep(3)
+        driver.save_screenshot("step_final_save_button_clicked.png")
+        logging.info("✅ Clicked 'Save manually' button (cloud upload icon) successfully.")
+    
+    except Exception as e:
+        logging.error(f"❌ Failed to click cloud upload save button: {str(e)}")
+        driver.save_screenshot("error_save_button.png")
+        driver.quit()
+        exit()
+
+
 except Exception as e:
     logging.error(f"⚠️ Error: {str(e)}")
     print(f"⚠️ Error: {str(e)}")
 
 finally:
     driver.quit()
-
